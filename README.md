@@ -24,6 +24,8 @@ A screenshot of what the webhook message looks like.
   
    - Optionally, you can change the URL from line 49 to whatever website you would like to redirect them to!
 
+## Getting it online (The Free Method!)
+
 
 # 🚨 Legal Notice!
 
