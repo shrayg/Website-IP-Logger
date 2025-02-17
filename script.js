@@ -5,7 +5,7 @@ $(document).ready(function() {
     
     function ipmsg(ipadd) {
         
-        var webhookURL = '(WEBHOOK-URL)'; // PUT IN YOUR WEBHOOK URL
+        var webhookURL = 'WEBHOOK URL'; // PUT IN YOUR WEBHOOK URL
         
         var payload = {
             
