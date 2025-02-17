@@ -30,7 +30,11 @@
 
 5) - Go to the repository's settings and find the the category called "Code and automation" and find the sub-category called "Pages"
   
-6) - 
+6) - Click on the button under "Build and deployment" and select the option "Deploy from a branch" and under the new option "Branch" and select the branch as "main"
+
+7) - After some time passes, when you check back your brand new website should be online!
+
+## STAR THIS REPO, DAMNIT!
 
 # 🚨 Legal Notice!
 
