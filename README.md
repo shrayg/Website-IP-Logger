@@ -28,7 +28,7 @@ A screenshot of what the webhook message looks like.
 
 4) - Log-In to Github and create a new (public) repository, the name does not matter, but keep in mind that the website URL will be "(account-name).github.io/(repo-name)/"
 
-5) - Go to the repository's settings and find the 
+5) - Go to the repository's settings and find the the category called "Code and automation" and find the sub-category called ""
 
 # 🚨 Legal Notice!
 
