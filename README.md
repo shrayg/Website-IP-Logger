@@ -14,9 +14,17 @@ A screenshot of what the webhook message looks like.
 
 # How to use!
 
-1) - Create a Discord Webhook in your Discord server.
+## Setting it up.
 
-2) - Copy the URL and paste it into where it says YOUR WEBHOOK URL
+1) - Download the .ZIP file for this repository
+
+2) - Create a Discord Webhook in your Discord server.
+
+3) - Copy the Webhook URL and paste it into where it says 𝐖𝐄𝐁𝐇𝐎𝐎𝐊 𝐔𝐑𝐋 in the file "script.js"
+  
+   - Optionally, you can change the URL to the 
+
+
 # 🚨 Legal Notice!
 
 By using this website, you acknowledge and consent to the following terms and conditions. This website is for entertainment purposes only and should not be used for any illegal activities. The website may log the IP addresses of visitors for the purpose of monitoring and preventing misuse of the website. The website is not responsible for any misuse of your personal information by third parties. By using this website, you agree to release and hold harmless the website and its operators from any and all claims, damages, or liabilities arising from your use of the website. If you do not agree to these terms and conditions, please do not use this website.
