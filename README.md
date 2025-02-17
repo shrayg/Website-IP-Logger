@@ -14,7 +14,7 @@ A screenshot of what the webhook message looks like.
 
 # How to use!
 
-## Setting it up.
+## Customizing it/ Setting it up.
 
 1) - Download the .ZIP file for this repository
 
@@ -22,7 +22,7 @@ A screenshot of what the webhook message looks like.
 
 3) - Copy the Webhook URL and paste it into where it says 𝐖𝐄𝐁𝐇𝐎𝐎𝐊 𝐔𝐑𝐋 in the file "script.js"
   
-   - Optionally, you can change the URL to the 
+   - Optionally, you can change the URL from line 49 to whatever website you would like to redirect them to
 
 
 # 🚨 Legal Notice!
