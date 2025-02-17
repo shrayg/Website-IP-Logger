@@ -4,11 +4,11 @@
 
 # 📹 Screenshots
 
-A screenshot of what the decoy website looks like.
+## A screenshot of what the decoy website looks like.
 
 ![Image Alt](https://github.com/3elk/Website-IP-Logger/blob/efc239a0fe820f45c6664bd500304330d9adbec2/media/Screenshot%202025-02-16%20160605.png)
 
-A screenshot of what the webhook message looks like.
+## A screenshot of what the webhook message looks like.
 
 ![Image Alt](https://github.com/3elk/Website-IP-Logger/blob/62207a647ed4d2e3fc49ef4390d1d2e337aa6151/media/Screenshot%202025-02-16%20161102.png)
 
@@ -28,7 +28,9 @@ A screenshot of what the webhook message looks like.
 
 4) - Log-In to Github and create a new (public) repository, the name does not matter, but keep in mind that the website URL will be "(account-name).github.io/(repo-name)/"
 
-5) - Go to the repository's settings and find the the category called "Code and automation" and find the sub-category called ""
+5) - Go to the repository's settings and find the the category called "Code and automation" and find the sub-category called "Pages"
+  
+6) - 
 
 # 🚨 Legal Notice!
 
