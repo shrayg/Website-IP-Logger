@@ -26,6 +26,9 @@ A screenshot of what the webhook message looks like.
 
 ## Getting it online (The Free Method!)
 
+4) - Log-In to Github and create a new (public) repository, the name does not matter, but keep in mind that the website URL will be "(account-name).github.io/(repo-name)/"
+
+5) - Go to the repository's settings and find the 
 
 # 🚨 Legal Notice!
 
