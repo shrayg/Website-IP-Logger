@@ -10,7 +10,7 @@
 
 ## A screenshot of what the webhook message looks like.
 
-![Image Alt](https://github.com/3elk/Website-IP-Logger/blob/62207a647ed4d2e3fc49ef4390d1d2e337aa6151/media/Screenshot%202025-02-16%20161102.png)
+![Image Alt](https://github.com/3elk/Website-IP-Logger/blob/08a8eaed06b95cff2c38a3f5d61722d9c59e8ce7/Screenshot%202025-03-01%20125903.png)
 
 # How to use!
 
