@@ -6,7 +6,7 @@
 
 ## A screenshot of what the decoy website looks like.
 
-![Image Alt](https://github.com/3elk/Website-IP-Logger/blob/efc239a0fe820f45c6664bd500304330d9adbec2/media/Screenshot%202025-02-16%20160605.png)
+![Image Alt](https://github.com/3elk/Website-IP-Logger/blob/1228c094e198bb79de4c4f2928a844d48e65d5a3/Screenshot%202025-02-28%20212913.png)
 
 ## A screenshot of what the webhook message looks like.
 
