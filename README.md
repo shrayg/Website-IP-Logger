@@ -22,7 +22,7 @@
 
 3) - Copy the Webhook URL and paste it into where it says 𝐖𝐄𝐁𝐇𝐎𝐎𝐊 𝐔𝐑𝐋 in the file "script.js".
   
-   - Optionally, you can change the URL from line 49 to whatever website you would like to redirect them to!
+   - Optionally, you can change the hyperlinks in the HTML document to redirect them to whatever site you want!
 
 ## Getting it online (The Free Method!)
 
