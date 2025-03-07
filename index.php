@@ -6,7 +6,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>E.L.K: 404 Error.</title>
     <link rel="stylesheet" href="style.css">
-    <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
 </head>
 <body>
     <div class="container">
@@ -15,12 +14,12 @@
         <div class="search-bar">
             <input type="text" placeholder="Type here . . ." />
         </div>
-        <p><a href="https://3elk.github.io/JumpScare-Spam/">Visit our homepage</a> | <a href="https://3elk.github.io/JumpScare-Spam/">Check out our latest articles</a> | <a href="https://3elk.github.io/JumpScare-Spam/">Browse our FAQs</a></p> <!-- all links changeable -->
+        <p><a href="https://3elk.github.io/JumpScare-Spam/">Visit our homepage</a> | <a href="https://3elk.github.io/JumpScare-Spam/ ">Check out our latest articles</a> | <a href="https://3elk.github.io/JumpScare-Spam/">Browse our FAQs</a></p> <!-- all links changeable -->
     </div>
     <script defer src="script.js" ></script>
     <footer>
         © 2025 Elasticsearch, Logstash, and Kibana Computing. All rights reserved. <br>
-        Contact us: <a href="https://3elk.github.io/JumpScare-Spam/">support@elkcomputing.com</a> <!-- all changeable -->
+        Contact us: <a href="https://3elk.github.io/JumpScare-Spam/">support@elkcomputing.com</a> <!-- all changeable-->
     </footer>
 </body>
 </html>
